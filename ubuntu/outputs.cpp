@@ -308,7 +308,7 @@ VideoOutput::VideoOutput(DesktopEventCallbacks* callbacks) : callbacks(callbacks
                               SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED,
                           #if ASPECT_RATIO_FIX
                               //emulate the CMU stretching
-                              (int) (853 * g_dpi_scalefactor), (int) (480 * g_dpi_scalefactor),
+                              (int) (800 * g_dpi_scalefactor), (int) (480 * g_dpi_scalefactor),
                           #else
                               (int) (800 * g_dpi_scalefactor), (int) (480 * g_dpi_scalefactor),
                           #endif
